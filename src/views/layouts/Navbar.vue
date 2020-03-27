@@ -6,7 +6,7 @@
                     <div class="col-lg-2 col-md-2">
                         <div class="logo">
                             <a href="./index.html">
-                                <img src="img/logo.png" alt="">
+                               <a class="navbar-brand brand-logo" href="index.html"><img src="assets/img/logo.png"></a>
                             </a>
                         </div>
                     </div>

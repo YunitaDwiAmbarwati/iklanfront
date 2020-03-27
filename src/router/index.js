@@ -1,11 +1,12 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import store from '../store'
+import Navbar from '../views/layouts/Navbar.vue'
+import Navbar2 from '../views/layouts/Navbar2.vue'
 import Beranda from '../views/Beranda.vue'
-
 import Login from '../views/Login.vue'
 import Register from '../views/Register.vue'
-import Navbar from '../views/layouts/Navbar.vue'
+import Produk from '../views/Produk.vue'
 import Footer from '../views/layouts/Footer.vue'
 
 Vue.use(VueRouter)
@@ -16,28 +17,28 @@ const routes = [{
         components: { default: Login }
     },
     {
-        path: '/',
+        path: '/beranda',
         name: 'beranda',
-        components: { default: Navbar },
+        components: { default: Beranda, header: Navbar },
         meta: {
-            requiresAuth: true
+
         }
     },
     {
         path: '/register',
         name: 'register',
         components: { default: Register },
-        meta: {
-            requiresAuth: true
-        }
+        // meta: {
+        //     requiresAuth: true
+        // }
     },
     {
         path: '/produk',
         name: 'produk',
-        components: { default: Navbar },
-        meta: {
-            requiresAuth: true
-        }
+        components: { default: Produk, header: Navbar2},
+        // meta: {
+        //     requiresAuth: true
+        // }
     },
 
 

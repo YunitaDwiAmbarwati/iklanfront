@@ -1,49 +1,27 @@
 <template>
-  <div>
-    <div class="breacrumb-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="breadcrumb-text product-more">
-                        <a href="./home.html"><i class="fa fa-home"></i> Home</a>
-                        <a href="./shop.html">Shop</a>
-                        <span>Detail</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
     <!-- Breadcrumb Section Begin -->
 
     <!-- Product Shop Section Begin -->
     <section class="product-shop spad page-details">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3">
-
-
-
-                </div>
-
-
-            </div>
-            <div class="col-lg-9">
-                <div class="row">
                     <div class="col-lg-6">
                         <div class="product-pic-zoom">
-                            <img class="product-big-img" src="img/product-single/product-1.jpg" alt="">
+                           <a class="product-big-img" href="index.html"><img src="assets/img/product-single/product-1.jpg"></a>
+                            
                             <div class="zoom-icon">
                                 <i class="fa fa-search-plus"></i>
                             </div>
                         </div>
-                        <div class="product-thumbs">
-                            <div class="product-thumbs-track ps-slider owl-carousel">
-                                <div class="pt active" data-imgbigurl="img/product-single/product-1.jpg"><img src="img/product-single/product-1.jpg" alt=""></div>
-                                <div class="pt" data-imgbigurl="img/product-single/product-2.jpg"><img src="img/product-single/product-2.jpg" alt=""></div>
-                                <div class="pt" data-imgbigurl="img/product-single/product-3.jpg"><img src="img/product-single/product-3.jpg" alt=""></div>
-                                <div class="pt" data-imgbigurl="img/product-single/product-3.jpg"><img src="img/product-single/product-3.jpg" alt=""></div>
-                            </div>
-                        </div>
+                        <a class ="product-thumbs">
+                            <a class="product-thumbs-track ps-slider owl-carousel">
+                                <a class="pt active" data-imgbigurl="assets/img/product-single/product-1.jpg" href="index.html"><img src="assets/img/product-single/product-1.jpg" ></a>
+                                <a class="pt" data-imgbigurl="assets/img/product-single/product-2.jpg"><img src="assets/img/product-single/product-2.jpg" alt=""></a>
+                                <a class="pt" data-imgbigurl="assets/img/product-single/product-3.jpg"><img src="assets/img/product-single/product-3.jpg" alt=""></a>
+                                <a class="pt" data-imgbigurl="assets/img/product-single/product-3.jpg"><img src="assets/img/product-single/product-3.jpg" alt=""></a>
+                            </a>
+                        </a>
                     </div>
                     <div class="col-lg-6">
                         <div class="product-details">
@@ -81,12 +59,14 @@
                                     <p> Sleman, Yogyakarta, Indonesia</p></li>
 
                             </ul>
+                            </div>
 
                         </div>
                     </div>
                 </div>
+                </section>
                
-                    <div class="tab-item-content">
+                    <!-- <div class="tab-item-content">
                         <div class="tab-content">
                             <div class="tab-pane fade-in active" id="tab-1" role="tabpanel">
                                 <div class="product-content">
@@ -103,7 +83,7 @@
 
                          
                         </div>
-                    </div>  
+                    </div>   -->
 </template>
 <script>
 module.exports = {
